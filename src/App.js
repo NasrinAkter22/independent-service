@@ -9,6 +9,7 @@ import Footer from './Footer/Footer';
 import Header from '../src/Component/Header/Header';
 import Experts from './Component/Experts/Experts';
 import NotFound from './Component/NotFound/NotFound';
+import SignUp from './SignUp/SignUp';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path='/expert' element={<Experts></Experts>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-
+        <Route path='/SignUp'element={<SignUp></SignUp>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
         
       </Routes>
